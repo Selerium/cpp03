@@ -6,7 +6,7 @@
 /*   By: jadithya <jadithya@student.42abudhabi.ae>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/05 18:12:54 by jadithya          #+#    #+#             */
-/*   Updated: 2023/11/05 19:31:10 by jadithya         ###   ########.fr       */
+/*   Updated: 2023/11/06 14:39:45 by jadithya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,8 +88,8 @@ int ClapTrap::getEnergyPoints() const {
 	return (this->EnergyPoints);
 }
 
-void ClapTrap::setName(std::string Name) {
-	this->Name = Name;
+void ClapTrap::setName(std::string name) {
+	this->Name = name;
 }
 
 void ClapTrap::setAttackDamage(int n) {

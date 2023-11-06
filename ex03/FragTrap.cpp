@@ -6,7 +6,7 @@
 /*   By: jadithya <jadithya@student.42abudhabi.ae>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/05 20:29:04 by jadithya          #+#    #+#             */
-/*   Updated: 2023/11/05 20:35:42 by jadithya         ###   ########.fr       */
+/*   Updated: 2023/11/06 14:40:52 by jadithya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ FragTrap::FragTrap() : ClapTrap() {
 	std::cout << "FragTrap created!" << std::endl;
 }
 
-FragTrap::FragTrap(std::string Name) : ClapTrap(Name) {
+FragTrap::FragTrap(std::string name) : ClapTrap(name) {
 	this->setHitPoints(100);
 	this->setEnergyPoints(100);
 	this->setAttackDamage(30);

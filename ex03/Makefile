@@ -6,7 +6,7 @@
 #    By: jadithya <jadithya@student.42abudhabi.ae>  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/15 18:23:29 by jadithya          #+#    #+#              #
-#    Updated: 2023/11/05 21:38:58 by jadithya         ###   ########.fr        #
+#    Updated: 2023/11/06 14:36:51 by jadithya         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ CC := c++
 
 NAME := DiamondTrap
 
-CXXFLAGS := -Wall -Wextra -Werror -std=c++98 -Wshadow -Wno-shadow
+CXXFLAGS := -Wall -Wextra -Werror -std=c++98 -Wshadow
 
 SRCS := main.cpp\
 		ClapTrap.cpp\
