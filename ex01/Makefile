@@ -6,7 +6,7 @@
 #    By: jadithya <jadithya@student.42abudhabi.ae>  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/15 18:23:29 by jadithya          #+#    #+#              #
-#    Updated: 2023/11/05 19:38:15 by jadithya         ###   ########.fr        #
+#    Updated: 2023/11/06 14:34:38 by jadithya         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ CC := c++
 
 NAME := ScavTrap
 
-CFLAGS := -Wall -Wextra -Werror -std=c++98
+CXXFLAGS := -Wall -Wextra -Werror -std=c++98
 
 SRCS := main.cpp\
 		ClapTrap.cpp\
@@ -27,10 +27,10 @@ OBJS := $(SRCS:%.cpp=%.o)
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	$(CC) $(CFLAGS) $(OBJS) -o $@
+	$(CC) $(CXXFLAGS) $(OBJS) -o $@
 
 %.o: %.cpp
-	$(CC) $(CFLAGS) -o $@ -c $<
+	$(CC) $(CXXFLAGS) -o $@ -c $<
 
 clean:
 	rm -f $(OBJS)
